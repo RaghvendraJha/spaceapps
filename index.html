@@ -3,57 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mom's Bazaar - Empowering Smart Shopping for Moms</title>
+    <title>Mom's Bazaar</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Moms Bazaar - A purpose-led shopping platform offering exclusive discounts and benefits that contribute to your child's education and health.">
+    <meta name="description" content="Purpose-driven shopping for moms. Exclusive discounts that contribute to your child's education and health.">
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <h1>Mom's Bazaar</h1>
-            <button class="cta-button" onclick="openForm('parent')">Join Now</button>
-        </nav>
-        <section class="hero">
-            <h2>Empowering Moms to Shop Smart and Save</h2>
-            <p>Discover purpose-led shopping that supports your child's education and health.</p>
-            <button class="cta-button" onclick="openForm('parent')">Get Started</button>
-        </section>
+    <!-- Header -->
+    <header class="header">
+        <h1>Mom's Bazaar</h1>
+        <button class="cta-button" onclick="openForm('parent')">Join Now</button>
     </header>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Subscription Plans -->
-        <section class="subscriptions">
-            <h2>Early Bird Discounts</h2>
-            <div class="plan" id="parents-plan">
-                <h3>Parents</h3>
-                <p>Free for the first 3 months; 500 bonus points on subscription. Annual fee of ₹500, waived for the first 100 subscribers.</p>
-                <button class="cta-button" onclick="openForm('parent')">Join as Parent</button>
-            </div>
-            <div class="plan" id="schools-plan">
-                <h3>Educational Institutions</h3>
-                <p>Annual fee of ₹25,000; early access for the first 100 institutions. Benefits include platform visibility, subscription waivers, and up to 90% discount on purchases.</p>
-                <button class="cta-button" onclick="openForm('school')">Join as School</button>
-            </div>
-            <div class="plan" id="startups-plan">
-                <h3>Startups/Companies</h3>
-                <p>Annual fee of ₹150,000, free for the first 20 if registered before 31st March 2025. Benefits include product listing, targeted ads, and in-depth analytics.</p>
-                <button class="cta-button" onclick="openForm('industry')">Join as Startup</button>
-            </div>
-        </section>
-    </main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Empowering Moms to Shop Smart and Save</h2>
+            <p>Discover purpose-driven shopping that supports your child's education and health.</p>
+            <button class="cta-button" onclick="openForm('parent')">Get Started</button>
+        </div>
+    </section>
 
-    <!-- Testimonials and Pop-up Form -->
+    <!-- Subscription Plans -->
+    <section class="subscriptions">
+        <h2>Early Bird Discounts</h2>
+        <div class="plan">
+            <h3>Parents</h3>
+            <p>Free for the first 3 months; 500 bonus points on subscription. Annual fee ₹500, waived for the first 100 subscribers.</p>
+            <button class="cta-button" onclick="openForm('parent')">Join as Parent</button>
+        </div>
+        <div class="plan">
+            <h3>Educational Institutions</h3>
+            <p>Annual fee ₹25,000; early access benefits include platform visibility and significant discounts.</p>
+            <button class="cta-button" onclick="openForm('school')">Join as School</button>
+        </div>
+        <div class="plan">
+            <h3>Startups/Companies</h3>
+            <p>Annual fee ₹150,000; free for the first 20 if registered before 31st March 2025. Listing, analytics, and more perks.</p>
+            <button class="cta-button" onclick="openForm('industry')">Join as Startup</button>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
     <section class="testimonials">
-        <h2>What Our Users Say</h2>
+        <h2>User Reviews</h2>
         <blockquote>“Shopping that gives back to my child’s education!”</blockquote>
         <blockquote>“A unique platform with meaningful benefits.”</blockquote>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>Get Updates & Exclusive Offers</p>
+        <p>Stay Updated with Exclusive Offers</p>
         <form>
             <input type="email" placeholder="Your email" required>
             <button type="submit">Subscribe</button>
